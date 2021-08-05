@@ -1,0 +1,16 @@
+// This style sheet is shared between the ChatWindow and the Discover components
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0.5rem;
+
+    .title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: rgb(34, 34, 34);
+        padding: 0.2rem;
+    }
+}

@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem;
+
+    .chip {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 0.8rem;
+        background-color: #ededed;
+        margin: 0 1rem 0 0;
+        border-radius: 1rem;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        .chip__label {
+            font-size: 0.9rem;
+            color: #333333;
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        &:hover,
+        &:active {
+            background-color: #2dd29d;
+        }
+    }
+}

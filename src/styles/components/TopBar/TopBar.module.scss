@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100vw;
     padding: 0.75rem;
@@ -22,12 +21,46 @@
         hsla(270, 86%, 65%, 1) 100%
     );
 
-    // filter: (
-    //     progid:
-    //         DXImageTransform.Microsoft.gradient(
-    //             startColorstr= '#875AF3',
-    //             endColorstr= '#A65BF3',
-    //             GradientType=1
-    //         )
-    // );
+    .settings {
+        display: flex;
+        align-items: center;
+        padding: 18px;
+
+        .icon {
+            font-size: 1.2rem;
+            color: #f8f4ff;
+            cursor: pointer;
+        }
+    }
+
+    .user {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: calc(100% / 5);
+
+        .avatar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.6rem;
+            background-color: azure;
+            border-radius: 2rem;
+            width: fit-content;
+            margin: 0.5rem 0;
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .username {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 0.5rem;
+            color: #f6f0ff;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+    }
 }
